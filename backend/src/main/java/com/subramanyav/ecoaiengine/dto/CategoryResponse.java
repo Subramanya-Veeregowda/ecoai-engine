@@ -7,7 +7,7 @@ import java.util.List;
 @Data
 public class CategoryResponse {
     private String category;
-    private String subCategory;
+    private String subcategory;
     private List<String> tags;
     private List<String> sustainability;
 
@@ -16,7 +16,7 @@ public class CategoryResponse {
     }
 
     public void setSubCategory(String subCategory) {
-        this.subCategory = subCategory;
+        this.subcategory = subCategory;
     }
 
     public void setTags(List<String> tags) {
